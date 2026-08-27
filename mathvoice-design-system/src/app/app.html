@@ -45,4 +45,44 @@
       <mv-gradient-palette [gradients]="gradients" />
     </div>
   </section>
+
+  <section class="typography-section" aria-labelledby="typography-title">
+    <header class="hero">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+        <span>Foundations</span>
+        <img
+          class="breadcrumb__arrow"
+          src="/assets/arrow-right.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>Typography</span>
+      </div>
+
+      <div class="hero__copy">
+        <h2 id="typography-title">Typography</h2>
+        <div>
+          <p>
+            Inter is the primary typeface for the Teacher experience, chosen for its clarity,
+            neutrality, and strong performance across information-dense interfaces.
+          </p>
+          <p>
+            Its clean forms and highly legible structure support the way teachers consume
+            information: analysing student progress, interpreting metrics, reviewing rubrics, and
+            making decisions based on data.
+          </p>
+          <p>
+            The type scale creates clear hierarchy and structure, helping users quickly distinguish
+            between key information, supporting content, and actions.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <div class="typography-content">
+      <mv-typography-specimen [scales]="typeScale" [weights]="fontWeights" />
+    </div>
+  </section>
 </main>

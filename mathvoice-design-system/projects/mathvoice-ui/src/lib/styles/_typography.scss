@@ -1,0 +1,94 @@
+:root {
+  --mv-font-family: 'Inter Variable', Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --mv-font-weight-regular: 400;
+  --mv-font-weight-medium: 500;
+  --mv-font-weight-semibold: 600;
+  --mv-font-weight-bold: 700;
+
+  --mv-font-size-display-lg: 2.25rem;
+  --mv-line-height-display-lg: 2.75rem;
+  --mv-letter-spacing-display-lg: -0.02em;
+
+  --mv-font-size-display-md: 1.875rem;
+  --mv-line-height-display-md: 2.375rem;
+
+  --mv-font-size-display-sm: 1.5rem;
+  --mv-line-height-display-sm: 2rem;
+
+  --mv-font-size-text-xl: 1.25rem;
+  --mv-line-height-text-xl: 1.875rem;
+
+  --mv-font-size-text-lg: 1.125rem;
+  --mv-line-height-text-lg: 1.75rem;
+
+  --mv-font-size-text-md: 1rem;
+  --mv-line-height-text-md: 1.5rem;
+
+  --mv-font-size-text-sm: 0.875rem;
+  --mv-line-height-text-sm: 1.25rem;
+
+  --mv-font-size-text-xs: 0.75rem;
+  --mv-line-height-text-xs: 1.125rem;
+}
+
+@mixin type-style($size, $line-height, $weight: var(--mv-font-weight-regular), $tracking: normal) {
+  font-family: var(--mv-font-family);
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+  letter-spacing: $tracking;
+}
+
+.mv-display-lg {
+  @include type-style(
+    var(--mv-font-size-display-lg),
+    var(--mv-line-height-display-lg),
+    var(--mv-font-weight-regular),
+    var(--mv-letter-spacing-display-lg)
+  );
+}
+
+.mv-display-md {
+  @include type-style(var(--mv-font-size-display-md), var(--mv-line-height-display-md));
+}
+
+.mv-display-sm {
+  @include type-style(var(--mv-font-size-display-sm), var(--mv-line-height-display-sm));
+}
+
+.mv-text-xl {
+  @include type-style(var(--mv-font-size-text-xl), var(--mv-line-height-text-xl));
+}
+
+.mv-text-lg {
+  @include type-style(var(--mv-font-size-text-lg), var(--mv-line-height-text-lg));
+}
+
+.mv-text-md {
+  @include type-style(var(--mv-font-size-text-md), var(--mv-line-height-text-md));
+}
+
+.mv-text-sm {
+  @include type-style(var(--mv-font-size-text-sm), var(--mv-line-height-text-sm));
+}
+
+.mv-text-xs {
+  @include type-style(var(--mv-font-size-text-xs), var(--mv-line-height-text-xs));
+}
+
+.mv-font-regular {
+  font-weight: var(--mv-font-weight-regular);
+}
+
+.mv-font-medium {
+  font-weight: var(--mv-font-weight-medium);
+}
+
+.mv-font-semibold {
+  font-weight: var(--mv-font-weight-semibold);
+}
+
+.mv-font-bold {
+  font-weight: var(--mv-font-weight-bold);
+}

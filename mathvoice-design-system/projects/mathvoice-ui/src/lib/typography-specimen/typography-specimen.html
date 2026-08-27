@@ -1,0 +1,37 @@
+<section class="typeface" aria-labelledby="mv-typeface-title">
+  <div>
+    <h2 id="mv-typeface-title">Inter</h2>
+    <p class="typeface__glyph">Ag</p>
+  </div>
+  <p class="typeface__characters">
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+    abcdefghijklmnopqrstuvwxyz<br />
+    0123456789 !&#64;#$%^&amp;*()
+  </p>
+</section>
+
+<div class="type-scale">
+  @for (scale of scales(); track scale.id) {
+    <article class="scale-row" [attr.aria-labelledby]="'mv-' + scale.id">
+      <header>
+        <h3 [id]="'mv-' + scale.id">{{ scale.name }}</h3>
+        <p>
+          Font size: {{ scale.fontSize }}px / {{ scale.fontSize / 16 }}rem | Line height:
+          {{ scale.lineHeight }}px / {{ scale.lineHeight / 16 }}rem
+          @if (scale.letterSpacing) {
+            | Letter spacing: -2%
+          }
+        </p>
+      </header>
+
+      <div class="scale-row__samples">
+        @for (weight of weights(); track weight.value) {
+          <div class="sample" [ngStyle]="sampleStyle(scale, weight)">
+            <span>{{ scale.name }}</span>
+            <strong>{{ weight.name }}</strong>
+          </div>
+        }
+      </div>
+    </article>
+  }
+</div>

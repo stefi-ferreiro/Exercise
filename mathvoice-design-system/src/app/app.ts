@@ -4,12 +4,17 @@ import {
   MATHVOICE_COLOR_PALETTES,
   MATHVOICE_FONT_WEIGHTS,
   MATHVOICE_GRADIENTS,
+  MATHVOICE_PRIMITIVE_GROUPS,
+  MATHVOICE_PRIMITIVE_TOKENS,
+  MATHVOICE_SEMANTIC_GROUPS,
+  MATHVOICE_SEMANTIC_TOKENS,
   MATHVOICE_SHADOWS,
   MATHVOICE_TYPE_SCALE,
   MvBlurSpecimenComponent,
   MvColorPaletteComponent,
   MvGradientPaletteComponent,
   MvShadowSpecimenComponent,
+  MvTokenSpecimenComponent,
   MvTypographySpecimenComponent,
 } from 'mathvoice-ui';
 
@@ -20,6 +25,7 @@ import {
     MvColorPaletteComponent,
     MvGradientPaletteComponent,
     MvShadowSpecimenComponent,
+    MvTokenSpecimenComponent,
     MvTypographySpecimenComponent,
   ],
   templateUrl: './app.html',
@@ -32,4 +38,8 @@ export class App {
   protected readonly fontWeights = MATHVOICE_FONT_WEIGHTS;
   protected readonly shadows = MATHVOICE_SHADOWS;
   protected readonly blurs = MATHVOICE_BLURS;
+  protected readonly primitiveTokens = MATHVOICE_PRIMITIVE_TOKENS;
+  protected readonly primitiveGroups = MATHVOICE_PRIMITIVE_GROUPS;
+  protected readonly semanticTokens = MATHVOICE_SEMANTIC_TOKENS;
+  protected readonly semanticGroups = MATHVOICE_SEMANTIC_GROUPS;
 }

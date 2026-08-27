@@ -143,4 +143,62 @@
       <mv-blur-specimen [blurs]="blurs" />
     </div>
   </section>
+
+  <section class="effects-section" aria-labelledby="primitives-title">
+    <header class="hero">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+        <span>Foundations</span>
+        <img
+          class="breadcrumb__arrow"
+          src="/assets/arrow-right.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>Primitives</span>
+      </div>
+
+      <div class="hero__copy">
+        <h2 id="primitives-title">Primitives</h2>
+        <p>
+          Primitive variables are the raw color, spacing, radius, size, and stroke values in the
+          MathVoice Figma library. Semantic tokens alias these primitives.
+        </p>
+      </div>
+    </header>
+
+    <div class="effects-content">
+      <mv-token-specimen [tokens]="primitiveTokens" [groups]="primitiveGroups" />
+    </div>
+  </section>
+
+  <section class="effects-section" aria-labelledby="semantic-title">
+    <header class="hero">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+        <span>Foundations</span>
+        <img
+          class="breadcrumb__arrow"
+          src="/assets/arrow-right.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>Semantic</span>
+      </div>
+
+      <div class="hero__copy">
+        <h2 id="semantic-title">Semantic</h2>
+        <p>
+          Semantic variables map primitives onto component roles such as buttons, inputs, sidebar,
+          and text. Use these names in product UI instead of raw palette steps.
+        </p>
+      </div>
+    </header>
+
+    <div class="effects-content">
+      <mv-token-specimen [tokens]="semanticTokens" [groups]="semanticGroups" />
+    </div>
+  </section>
 </main>

@@ -26,5 +26,8 @@ describe('App', () => {
     expect(compiled.querySelectorAll('.shadow-card')).toHaveLength(7);
     expect(compiled.querySelector('#blurs-title')?.textContent).toContain('Blurs');
     expect(compiled.querySelectorAll('.blur-card')).toHaveLength(8);
+    expect(compiled.querySelector('#primitives-title')?.textContent).toContain('Primitives');
+    expect(compiled.querySelector('#semantic-title')?.textContent).toContain('Semantic');
+    expect(compiled.querySelectorAll('mv-token-specimen')).toHaveLength(2);
   });
 });

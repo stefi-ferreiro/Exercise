@@ -1,0 +1,39 @@
+@for (section of grouped(); track section.group) {
+  <section class="token-group">
+    <h3>{{ section.group }}</h3>
+    <div class="token-table" role="table">
+      <div class="token-row token-row--head" role="row">
+        <span role="columnheader">Name</span>
+        <span role="columnheader">CSS variable</span>
+        <span role="columnheader">Value</span>
+        <span role="columnheader">Preview</span>
+      </div>
+      @for (token of section.tokens; track token.name) {
+        <div class="token-row" role="row">
+          <span role="cell">
+            <strong>{{ token.name }}</strong>
+            @if (token.aliasOf) {
+              <small>alias of {{ token.aliasOf }}</small>
+            }
+          </span>
+          <code role="cell">{{ token.cssVar }}</code>
+          <code role="cell">{{ token.cssValue }}</code>
+          <span class="token-preview" role="cell">
+            @if (token.type === 'COLOR') {
+              <span class="swatch" [style.background]="token.cssValue"></span>
+            } @else if (token.type === 'FLOAT') {
+              <span
+                class="meter"
+                [style.width.px]="previewWidth(token)"
+                [style.height.px]="token.group === 'Radius' ? 16 : 8"
+                [style.border-radius]="token.group === 'Radius' ? token.cssValue : '2px'"
+              ></span>
+            } @else {
+              <span class="type-sample" [style.font-family]="token.value">Aa</span>
+            }
+          </span>
+        </div>
+      }
+    </div>
+  </section>
+}

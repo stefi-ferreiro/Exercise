@@ -1,8 +1,10 @@
 @use '@fontsource-variable/inter';
 @use '../projects/mathvoice-ui/src/lib/styles/colors';
+@use '../projects/mathvoice-ui/src/lib/styles/primitives';
 @use '../projects/mathvoice-ui/src/lib/styles/typography';
 @use '../projects/mathvoice-ui/src/lib/styles/shadows';
 @use '../projects/mathvoice-ui/src/lib/styles/blurs';
+@use '../projects/mathvoice-ui/src/lib/styles/semantic';
 
 *,
 *::before,

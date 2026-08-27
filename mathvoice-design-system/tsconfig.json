@@ -7,7 +7,7 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "paths": {
-      "mathvoice-ui": ["./dist/mathvoice-ui"]
+      "mathvoice-ui": ["./projects/mathvoice-ui/src/public-api.ts"]
     },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,

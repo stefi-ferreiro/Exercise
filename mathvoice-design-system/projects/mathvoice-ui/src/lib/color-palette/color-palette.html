@@ -1,0 +1,24 @@
+<article class="palette" [attr.aria-labelledby]="'mv-palette-' + palette().id">
+  <header class="palette__header">
+    <h2 [id]="'mv-palette-' + palette().id">{{ palette().title }}</h2>
+    <p>{{ palette().description }}</p>
+  </header>
+
+  <h3>{{ palette().label }}</h3>
+
+  <ul class="palette__swatches" role="list">
+    @for (color of palette().colors; track color.step) {
+      <li class="swatch">
+        <span
+          class="swatch__color"
+          [style.background-color]="color.value"
+          [attr.aria-label]="palette().label + ' ' + color.step + ', ' + color.value"
+        ></span>
+        <span class="swatch__meta">
+          <strong>{{ color.step }}</strong>
+          <code>{{ color.value }}</code>
+        </span>
+      </li>
+    }
+  </ul>
+</article>

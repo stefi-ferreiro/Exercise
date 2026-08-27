@@ -1,0 +1,15 @@
+<div class="blur-stage">
+  <img class="blur-stage__photo" [src]="backgroundSrc()" alt="" width="1515" height="1979" />
+  <ul class="blur-stage__grid" role="list">
+    @for (blur of blurs(); track blur.id) {
+      <li
+        class="blur-card"
+        [class.blur-card--light]="blur.tone === 'light'"
+        [class.blur-card--dark]="blur.tone === 'dark'"
+        [style.backdrop-filter]="'blur(' + blur.radius + 'px)'"
+      >
+        <p>{{ blur.label }}</p>
+      </li>
+    }
+  </ul>
+</div>

@@ -22,5 +22,9 @@ describe('App', () => {
     expect(compiled.querySelectorAll('mv-color-palette')).toHaveLength(6);
     expect(compiled.querySelector('#typography-title')?.textContent).toContain('Typography');
     expect(compiled.querySelectorAll('.scale-row')).toHaveLength(8);
+    expect(compiled.querySelector('#shadows-title')?.textContent).toContain('Shadows');
+    expect(compiled.querySelectorAll('.shadow-card')).toHaveLength(7);
+    expect(compiled.querySelector('#blurs-title')?.textContent).toContain('Blurs');
+    expect(compiled.querySelectorAll('.blur-card')).toHaveLength(8);
   });
 });

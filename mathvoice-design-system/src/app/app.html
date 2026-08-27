@@ -85,4 +85,62 @@
       <mv-typography-specimen [scales]="typeScale" [weights]="fontWeights" />
     </div>
   </section>
+
+  <section class="effects-section" aria-labelledby="shadows-title">
+    <header class="hero">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+        <span>Foundations</span>
+        <img
+          class="breadcrumb__arrow"
+          src="/assets/arrow-right.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>Shadows</span>
+      </div>
+
+      <div class="hero__copy">
+        <h2 id="shadows-title">Shadows</h2>
+        <p>
+          Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+        </p>
+      </div>
+    </header>
+
+    <div class="effects-content">
+      <mv-shadow-specimen [shadows]="shadows" />
+    </div>
+  </section>
+
+  <section class="effects-section" aria-labelledby="blurs-title">
+    <header class="hero">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+        <span>Foundations</span>
+        <img
+          class="breadcrumb__arrow"
+          src="/assets/arrow-right.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>Blurs</span>
+      </div>
+
+      <div class="hero__copy">
+        <h2 id="blurs-title">Blurs</h2>
+        <p>
+          Background blurs are often used stylistically in modern UI design. However, just like
+          shadows, they allow you to add depth and realism to designs by positioning elements on a
+          z-axis.
+        </p>
+      </div>
+    </header>
+
+    <div class="effects-content">
+      <mv-blur-specimen [blurs]="blurs" />
+    </div>
+  </section>
 </main>

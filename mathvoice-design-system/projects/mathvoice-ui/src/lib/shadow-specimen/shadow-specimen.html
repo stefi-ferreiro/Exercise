@@ -1,0 +1,7 @@
+<ul class="shadows" role="list">
+  @for (shadow of shadows(); track shadow.id) {
+    <li class="shadow-card" [style.box-shadow]="shadow.value">
+      <p>{{ shadow.name }}</p>
+    </li>
+  }
+</ul>

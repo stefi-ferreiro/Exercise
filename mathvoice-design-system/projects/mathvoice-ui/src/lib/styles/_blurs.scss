@@ -1,0 +1,34 @@
+:root {
+  --mv-blur-sm: 8px;
+  --mv-blur-md: 16px;
+  --mv-blur-lg: 24px;
+  --mv-blur-xl: 40px;
+  --mv-color-blur-light: rgb(255 255 255 / 60%);
+  --mv-color-blur-dark: rgb(122 122 122 / 60%);
+}
+
+.mv-blur-sm {
+  backdrop-filter: blur(var(--mv-blur-sm));
+}
+
+.mv-blur-md {
+  backdrop-filter: blur(var(--mv-blur-md));
+}
+
+.mv-blur-lg {
+  backdrop-filter: blur(var(--mv-blur-lg));
+}
+
+.mv-blur-xl {
+  backdrop-filter: blur(var(--mv-blur-xl));
+}
+
+.mv-blur-light {
+  color: var(--mv-color-neutral-800, #1d1d1d);
+  background: var(--mv-color-blur-light);
+}
+
+.mv-blur-dark {
+  color: var(--mv-color-neutral-0, #fff);
+  background: var(--mv-color-blur-dark);
+}

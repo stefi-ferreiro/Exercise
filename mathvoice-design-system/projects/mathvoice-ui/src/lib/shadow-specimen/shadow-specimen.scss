@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+.shadows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 256px));
+  gap: 64px;
+  justify-content: start;
+  padding: 24px 0 32px;
+  margin: 0;
+  list-style: none;
+}
+
+.shadow-card {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 256px;
+  height: 240px;
+  padding: 24px;
+  color: var(--mv-color-neutral-800, #1d1d1d);
+  background: var(--mv-color-neutral-0, #fff);
+  border: 1px solid var(--mv-color-neutral-200, #ccccce);
+  border-radius: 12px;
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .shadows {
+    gap: 40px;
+    justify-content: center;
+  }
+}

@@ -70,10 +70,20 @@
   }
 }
 
-.typography-content {
+.typography-content,
+.effects-content {
   max-width: 2400px;
   padding: 80px;
   margin: 0 auto;
+}
+
+.effects-section {
+  border-top: 12px solid var(--mv-color-primary-400);
+
+  .hero {
+    max-width: 2400px;
+    padding-bottom: 0;
+  }
 }
 
 .palette-section {
@@ -153,7 +163,8 @@
   .palette-section,
   .section-heading,
   .gradient-content,
-  .typography-content {
+  .typography-content,
+  .effects-content {
     padding-right: 24px;
     padding-left: 24px;
   }

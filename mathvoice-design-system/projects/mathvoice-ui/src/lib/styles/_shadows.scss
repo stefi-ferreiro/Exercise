@@ -1,0 +1,37 @@
+:root {
+  --mv-shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  --mv-shadow-sm: 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 2px 0 rgb(0 0 0 / 3%);
+  --mv-shadow-md: 0 6px 10px -2px rgb(0 0 0 / 7%), 0 3px 5px -2px rgb(0 0 0 / 4%);
+  --mv-shadow-lg: 0 12px 16px -4px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 2%);
+  --mv-shadow-xl: 0 20px 24px -4px rgb(0 0 0 / 6%), 0 8px 8px -4px rgb(0 0 0 / 2%);
+  --mv-shadow-2xl: 0 24px 48px -12px rgb(0 0 0 / 12%);
+  --mv-shadow-3xl: 0 32px 64px -12px rgb(0 0 0 / 14%);
+}
+
+.mv-shadow-xs {
+  box-shadow: var(--mv-shadow-xs);
+}
+
+.mv-shadow-sm {
+  box-shadow: var(--mv-shadow-sm);
+}
+
+.mv-shadow-md {
+  box-shadow: var(--mv-shadow-md);
+}
+
+.mv-shadow-lg {
+  box-shadow: var(--mv-shadow-lg);
+}
+
+.mv-shadow-xl {
+  box-shadow: var(--mv-shadow-xl);
+}
+
+.mv-shadow-2xl {
+  box-shadow: var(--mv-shadow-2xl);
+}
+
+.mv-shadow-3xl {
+  box-shadow: var(--mv-shadow-3xl);
+}

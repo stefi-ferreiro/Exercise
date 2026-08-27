@@ -1,0 +1,48 @@
+<main>
+  <div class="brand-strip"></div>
+
+  <header class="hero">
+    <div class="breadcrumb" aria-label="Breadcrumb">
+      <img src="/assets/mathvoice-logo.svg" alt="" width="36" height="36" />
+      <span>Foundations</span>
+      <img class="breadcrumb__arrow" src="/assets/arrow-right.svg" alt="" width="20" height="20" />
+      <span>Colors</span>
+    </div>
+
+    <div class="hero__copy">
+      <h1>Colors</h1>
+      <p>
+        A color palette is a carefully chosen set of colors that define a brand’s visual identity.
+        It creates harmony, consistency, and emotional impact across designs. When used effectively,
+        it guides attention, improves readability, and strengthens the overall user experience.
+      </p>
+    </div>
+  </header>
+
+  <section class="palette-section" aria-label="MathVoice color palettes">
+    <div class="palette-stack">
+      @for (palette of palettes; track palette.id) {
+        <mv-color-palette [palette]="palette" />
+      }
+    </div>
+  </section>
+
+  <section class="gradient-section" aria-labelledby="gradients-title">
+    <div class="section-heading">
+      <span>Foundations › Colors</span>
+      <h2 id="gradients-title">Gradients</h2>
+      <p>
+        A gradient is the gradual blending from one color to another. Gradients add a new dimension,
+        help objects stand out, and create new expressions of the brand palette.
+      </p>
+    </div>
+
+    <div class="gradient-content">
+      <header>
+        <h3>Primary colors</h3>
+        <p>These are the main colors used throughout the MathVoice design system.</p>
+      </header>
+      <mv-gradient-palette [gradients]="gradients" />
+    </div>
+  </section>
+</main>

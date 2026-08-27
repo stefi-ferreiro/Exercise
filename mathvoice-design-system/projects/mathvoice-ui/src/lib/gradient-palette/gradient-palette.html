@@ -1,0 +1,27 @@
+<section class="gradients" aria-labelledby="mv-brand-gradients">
+  <div class="gradients__intro">
+    <h2 id="mv-brand-gradients">Brand gradients</h2>
+    <p>
+      Brand gradients combine primary and secondary colors to add depth while preserving the
+      MathVoice identity.
+    </p>
+  </div>
+
+  <ul class="gradients__list" role="list">
+    @for (gradient of gradients(); track gradient.id) {
+      <li class="gradient">
+        <span class="gradient__preview" [style.background]="background(gradient)"></span>
+        <span class="gradient__meta">
+          <span>
+            <strong>{{ gradient.from.step }}</strong>
+            <code>{{ gradient.from.value }}</code>
+          </span>
+          <span>
+            <strong>{{ gradient.to.step }}</strong>
+            <code>{{ gradient.to.value }}</code>
+          </span>
+        </span>
+      </li>
+    }
+  </ul>
+</section>

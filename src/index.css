@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@700&display=swap');
+
+:root {
+  --blue: #4c9dff;
+  --blue-dark: #005ac8;
+  --blue-light: #d5e8ff;
+  --orange: #ff7f00;
+  --orange-dark: #c26000;
+  --orange-light: #ffdab7;
+  --purple: #5634ff;
+  --surface: #f4f4f6;
+
+  color: #1d1d1d;
+  background: var(--surface);
+  font-family: Nunito, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}

@@ -77,7 +77,7 @@ export const MATHVOICE_COLOR_PALETTES: readonly MvColorPalette[] = [
       { step: '400', value: '#929293' },
       { step: '500', value: '#757576' },
       { step: '600', value: '#575758' },
-      { step: '700', value: '#3A3A3B' },
+      { step: '700', value: '#34343B' },
       { step: '800', value: '#1D1D1D' },
       { step: '900', value: '#000000' },
     ],

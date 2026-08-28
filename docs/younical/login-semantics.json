@@ -1,0 +1,427 @@
+[
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-0",
+    "role": null,
+    "aria": null,
+    "text": "App Logo\nAccount Sign In\nWe recommend you to use your personal account\nSign in\nS",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1259.6827392578125,
+      "height": 1011.8096313476562,
+      "top": 0,
+      "right": 1259.6827392578125,
+      "bottom": 1011.8096313476562,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-1",
+    "role": null,
+    "aria": null,
+    "text": "App Logo\nAccount Sign In\nWe recommend you to use your personal account\nSign in\nS",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1259.6827392578125,
+      "height": 1011.8096313476562,
+      "top": 0,
+      "right": 1259.6827392578125,
+      "bottom": 1011.8096313476562,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-2",
+    "role": null,
+    "aria": null,
+    "text": "App Logo\nAccount Sign In\nWe recommend you to use your personal account\nSign in\nS",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1259.6827392578125,
+      "height": 1011.8096313476562,
+      "top": 0,
+      "right": 1259.6827392578125,
+      "bottom": 1011.8096313476562,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FORM",
+    "id": "flt-semantic-node-3",
+    "role": null,
+    "aria": null,
+    "text": "App Logo\nAccount Sign In\nWe recommend you to use your personal account\nSign in\nS",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1259.6827392578125,
+      "height": 1011.8096313476562,
+      "top": 0,
+      "right": 1259.6827392578125,
+      "bottom": 1011.8096313476562,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-5",
+    "role": "group",
+    "aria": null,
+    "text": "App Logo\nAccount Sign In\nWe recommend you to use your personal account\nSign in\nS",
+    "rect": {
+      "x": 0,
+      "y": 244.40478515625,
+      "width": 1259.6827392578125,
+      "height": 523.0001220703125,
+      "top": 244.40478515625,
+      "right": 1259.6827392578125,
+      "bottom": 767.4049072265625,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-6",
+    "role": "button",
+    "aria": null,
+    "text": "App Logo",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 250.40478515625,
+      "width": 209.825439453125,
+      "height": 50.00001907348633,
+      "top": 250.40478515625,
+      "right": 295.82545471191406,
+      "bottom": 300.4048042297363,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-7",
+    "role": null,
+    "aria": null,
+    "text": "Account Sign In",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 350.4048156738281,
+      "width": 170.952392578125,
+      "height": 34.000003814697266,
+      "top": 350.4048156738281,
+      "right": 256.95240783691406,
+      "bottom": 384.4048194885254,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "SPAN",
+    "id": "",
+    "role": null,
+    "aria": null,
+    "text": "Account Sign In",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 350.4048156738281,
+      "width": 170.77223205566406,
+      "height": 36.57143020629883,
+      "top": 350.4048156738281,
+      "right": 256.7722473144531,
+      "bottom": 386.97624588012695,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-8",
+    "role": null,
+    "aria": null,
+    "text": "We recommend you to use your personal account",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 394.4048156738281,
+      "width": 405.9365539550781,
+      "height": 26.000001907348633,
+      "top": 394.4048156738281,
+      "right": 491.9365692138672,
+      "bottom": 420.40481758117676,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "SPAN",
+    "id": "",
+    "role": null,
+    "aria": null,
+    "text": "We recommend you to use your personal account",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 394.4048156738281,
+      "width": 405.3083801269531,
+      "height": 27.96639633178711,
+      "top": 394.4048156738281,
+      "right": 491.3083953857422,
+      "bottom": 422.37121200561523,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-9",
+    "role": null,
+    "aria": null,
+    "text": "",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 460.4048156738281,
+      "width": 500.0000915527344,
+      "height": 48.000003814697266,
+      "top": 460.4048156738281,
+      "right": 586.0001068115234,
+      "bottom": 508.4048194885254,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "INPUT",
+    "id": "",
+    "role": null,
+    "aria": "Enter your email",
+    "text": "",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 460.4048156738281,
+      "width": 506.0318298339844,
+      "height": 52.0317497253418,
+      "top": 460.4048156738281,
+      "right": 592.0318450927734,
+      "bottom": 512.4365653991699,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-10",
+    "role": null,
+    "aria": null,
+    "text": "",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 518.4048461914062,
+      "width": 500.0000915527344,
+      "height": 48.00003433227539,
+      "top": 518.4048461914062,
+      "right": 586.0001068115234,
+      "bottom": 566.4048805236816,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "INPUT",
+    "id": "",
+    "role": null,
+    "aria": "Enter your password",
+    "text": "",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 518.4048461914062,
+      "width": 506.0318298339844,
+      "height": 52.03178024291992,
+      "top": 518.4048461914062,
+      "right": 592.0318450927734,
+      "bottom": 570.4366264343262,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-11",
+    "role": "button",
+    "aria": null,
+    "text": "",
+    "rect": {
+      "x": 546.0001220703125,
+      "y": 522.40478515625,
+      "width": 40.000003814697266,
+      "height": 40.000064849853516,
+      "top": 522.40478515625,
+      "right": 586.0001258850098,
+      "bottom": 562.4048500061035,
+      "left": 546.0001220703125
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-12",
+    "role": "button",
+    "aria": null,
+    "text": "Sign in",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 596.4048461914062,
+      "width": 500.0000915527344,
+      "height": 44.000003814697266,
+      "top": 596.4048461914062,
+      "right": 586.0001068115234,
+      "bottom": 640.4048500061035,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-13",
+    "role": "button",
+    "aria": null,
+    "text": "Sign in with email passcode",
+    "rect": {
+      "x": 86.00001525878906,
+      "y": 650.4048461914062,
+      "width": 500.0000915527344,
+      "height": 32,
+      "top": 650.4048461914062,
+      "right": 586.0001068115234,
+      "bottom": 682.4048461914062,
+      "left": 86.00001525878906
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-14",
+    "role": "button",
+    "aria": null,
+    "text": "Don’t have an account? Sign Up",
+    "rect": {
+      "x": 225.09475708007812,
+      "y": 697.4048461914062,
+      "width": 221.8095703125,
+      "height": 32,
+      "top": 697.4048461914062,
+      "right": 446.9043273925781,
+      "bottom": 729.4048461914062,
+      "left": 225.09475708007812
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-15",
+    "role": "button",
+    "aria": null,
+    "text": "Forgot Password?",
+    "rect": {
+      "x": 266.9539489746094,
+      "y": 729.4048461914062,
+      "width": 138.07940673828125,
+      "height": 32,
+      "top": 729.4048461914062,
+      "right": 405.0333557128906,
+      "bottom": 761.4048461914062,
+      "left": 266.9539489746094
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-4",
+    "role": "img",
+    "aria": "Violeta Vector Image",
+    "text": "",
+    "rect": {
+      "x": 616.5008544921875,
+      "y": 236.26284790039062,
+      "width": 643.1746826171875,
+      "height": 775.539794921875,
+      "top": 236.26284790039062,
+      "right": 1259.675537109375,
+      "bottom": 1011.8026428222656,
+      "left": 616.5008544921875
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-16",
+    "role": "group",
+    "aria": "Footer section",
+    "text": "Designed and Developed by Bitbug Logo\nHome\nTerms & Conditions\nPrivacy Policy",
+    "rect": {
+      "x": 0,
+      "y": 947.8096313476562,
+      "width": 1259.6827392578125,
+      "height": 64,
+      "top": 947.8096313476562,
+      "right": 1259.6827392578125,
+      "bottom": 1011.8096313476562,
+      "left": 0
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-17",
+    "role": "button",
+    "aria": null,
+    "text": "Designed and Developed by Bitbug Logo",
+    "rect": {
+      "x": 20.000003814697266,
+      "y": 968.8096313476562,
+      "width": 273.7143249511719,
+      "height": 23.000001907348633,
+      "top": 968.8096313476562,
+      "right": 293.71432876586914,
+      "bottom": 991.8096332550049,
+      "left": 20.000003814697266
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-18",
+    "role": "button",
+    "aria": null,
+    "text": "Home",
+    "rect": {
+      "x": 889.7997436523438,
+      "y": 968.8096313476562,
+      "width": 44.01587677001953,
+      "height": 23.000001907348633,
+      "top": 968.8096313476562,
+      "right": 933.8156204223633,
+      "bottom": 991.8096332550049,
+      "left": 889.7997436523438
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-19",
+    "role": "button",
+    "aria": null,
+    "text": "Terms & Conditions",
+    "rect": {
+      "x": 963.8310546875,
+      "y": 968.8096313476562,
+      "width": 143.88890075683594,
+      "height": 23.000001907348633,
+      "top": 968.8096313476562,
+      "right": 1107.719955444336,
+      "bottom": 991.8096332550049,
+      "left": 963.8310546875
+    }
+  },
+  {
+    "tag": "FLT-SEMANTICS",
+    "id": "flt-semantic-node-20",
+    "role": "button",
+    "aria": null,
+    "text": "Privacy Policy",
+    "rect": {
+      "x": 1137.7216796875,
+      "y": 968.8096313476562,
+      "width": 101.95238494873047,
+      "height": 23.000001907348633,
+      "top": 968.8096313476562,
+      "right": 1239.6740646362305,
+      "bottom": 991.8096332550049,
+      "left": 1137.7216796875
+    }
+  }
+]

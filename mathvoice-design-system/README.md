@@ -5,11 +5,10 @@ Angular implementation of the MathVoice Figma library. The workspace contains:
 - `projects/mathvoice-ui`: reusable Angular library.
 - `src/app`: responsive catalogue used to review the implementation.
 
-The current version covers the complete **Colors**, **Typography**, and
-**Shadows & Blurs** Figma sections: six primitive palettes, three brand
-gradients, the Inter type scale, seven elevation shadows, eight background
-blurs, CSS custom properties, typed TypeScript tokens, utility classes, and
-reusable catalogue components.
+The current version covers **Colors**, **Typography**, **Shadows & Blurs**, and
+the Figma **Primitive** / **Semantic** variable collections.
+
+How to implement product UI with these tokens: **[USAGE.md](./USAGE.md)**.
 
 ## Run the catalogue
 
